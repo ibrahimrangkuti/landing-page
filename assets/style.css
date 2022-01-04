@@ -1,0 +1,50 @@
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+}
+
+.carousel-control-prev {
+  left: 3.4%;
+}
+
+.carousel-control-next {
+  right: 8%;
+}
+
+.logo-smk {
+  width: 100px;
+}
+
+.card-info {
+  box-shadow: 5px;
+}
+
+.contact {
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .kepsek {
+    margin-left: 30%;
+  }
+
+  .carousel-control-prev {
+    left: 5%;
+  }
+
+  .carousel-control-next {
+    right: 5%;
+  }
+
+  .logo-smk {
+    width: 50px;
+  }
+}
